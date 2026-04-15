@@ -4,20 +4,20 @@ import { X, ChevronLeft, ChevronRight, Maximize2, Heart } from 'lucide-react';
 import { Dialog, DialogContent } from '../ui/dialog.tsx';
 
 const PHOTOS = [
-  { id: 1, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 12.32.09 AM.jpeg', caption: 'A beautiful start to our journey.', date: 'Memory 1' },
-  { id: 2, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (1).jpeg', caption: 'Laughs and smiles all around.', date: 'Memory 2' },
-  { id: 3, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (2).jpeg', caption: 'Captured a perfect moment.', date: 'Memory 3' },
-  { id: 4, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (3).jpeg', caption: 'Adventure is out there!', date: 'Memory 4' },
-  { id: 5, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (4).jpeg', caption: 'Cherishing every second.', date: 'Memory 5' },
-  { id: 6, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (5).jpeg', caption: 'The best times are with you.', date: 'Memory 6' },
-  { id: 7, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (6).jpeg', caption: 'Making memories together.', date: 'Memory 7' },
-  { id: 8, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (7).jpeg', caption: 'A day to remember.', date: 'Memory 8' },
-  { id: 9, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (8).jpeg', caption: 'Pure joy in one frame.', date: 'Memory 9' },
-  { id: 10, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 1.25.53 AM.jpeg', caption: 'Special moments, special you.', date: 'Memory 10' },
-  { id: 11, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 1.25.54 AM.jpeg', caption: 'Our favorite little escape.', date: 'Memory 11' },
-  { id: 12, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 1.25.55 AM.jpeg', caption: 'Smiling through it all.', date: 'Memory 12' },
-  { id: 13, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 1.25.56 AM.jpeg', caption: 'Another chapter in our story.', date: 'Memory 13' },
-  { id: 14, url: '/src/assets/images/WhatsApp Image 2026-04-15 at 1.25.56 AM (1).jpeg', caption: 'Forever and always.', date: 'Memory 14' },
+  { id: 1, url: '/images/WhatsApp Image 2026-04-15 at 12.32.09 AM.jpeg', caption: 'A beautiful start to our journey.', date: 'Memory 1' },
+  { id: 2, url: '/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (1).jpeg', caption: 'Laughs and smiles all around.', date: 'Memory 2' },
+  { id: 3, url: '/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (2).jpeg', caption: 'Captured a perfect moment.', date: 'Memory 3' },
+  { id: 4, url: '/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (3).jpeg', caption: 'Adventure is out there!', date: 'Memory 4' },
+  { id: 5, url: '/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (4).jpeg', caption: 'Cherishing every second.', date: 'Memory 5' },
+  { id: 6, url: '/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (5).jpeg', caption: 'The best times are with you.', date: 'Memory 6' },
+  { id: 7, url: '/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (6).jpeg', caption: 'Making memories together.', date: 'Memory 7' },
+  { id: 8, url: '/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (7).jpeg', caption: 'A day to remember.', date: 'Memory 8' },
+  { id: 9, url: '/images/WhatsApp Image 2026-04-15 at 12.32.09 AM (8).jpeg', caption: 'Pure joy in one frame.', date: 'Memory 9' },
+  { id: 10, url: '/images/WhatsApp Image 2026-04-15 at 1.25.53 AM.jpeg', caption: 'Special moments, special you.', date: 'Memory 10' },
+  { id: 11, url: '/images/WhatsApp Image 2026-04-15 at 1.25.54 AM.jpeg', caption: 'Our favorite little escape.', date: 'Memory 11' },
+  { id: 12, url: '/images/WhatsApp Image 2026-04-15 at 1.25.55 AM.jpeg', caption: 'Smiling through it all.', date: 'Memory 12' },
+  { id: 13, url: '/images/WhatsApp Image 2026-04-15 at 1.25.56 AM.jpeg', caption: 'Another chapter in our story.', date: 'Memory 13' },
+  { id: 14, url: '/images/WhatsApp Image 2026-04-15 at 1.25.56 AM (1).jpeg', caption: 'Forever and always.', date: 'Memory 14' },
 ];
 
 export const Gallery = () => {
