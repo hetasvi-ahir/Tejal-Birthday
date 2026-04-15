@@ -9,8 +9,9 @@ const GIFT_ITEMS = [
   { emoji: "🍫", text: "A half-eaten chocolate bar" },
   { emoji: "✋", text: "A high-five" },
   { emoji: "🧦", text: "My old socks" },
-  { emoji: "🪨", text: "A pet rock named Kevin" },
-  { emoji: "🎁", text: "A surprise trip to... (Wait, check your bag!)" },
+  { emoji: "🪨", text: "A pet rock named Tejal" },
+  { emoji: "👍", text: "Thenga" },
+  { emoji: "❤️", text: "Hamara Pyaaaar" },
 ];
 
 export const GiftSlotMachine = () => {
